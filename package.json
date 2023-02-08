@@ -1,0 +1,89 @@
+{
+  "name": "vue-component-pgh",
+  "version": "0.2.0",
+  "author": "",
+  "scripts": {
+    "component": "webpack",
+    "serve": "vue-cli-service serve",
+    "components": "webpack --config webpack.component.js"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^3.2.8",
+    "axios": "0.21.1",
+    "core-js": "3.6.5",
+    "css-loader": "^5.2.7",
+    "dayjs": "1.10.6",
+    "echart": "^0.1.3",
+    "echarts": "^5.1.2",
+    "element-ui": "^2.15.3",
+    "js-cookie": "^3.0.0",
+    "js-md5": "^0.7.3",
+    "jsbarcode": "^3.11.5",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "print-js": "^1.6.0",
+    "sass-loader": "^7.3.1",
+    "sortablejs": "^1.14.0",
+    "style-loader": "^3.3.1",
+    "tui-image-editor": "^3.15.0",
+    "umy-ui": "^1.1.6",
+    "vue": "2.6.11",
+    "vue-barcode": "^1.3.0",
+    "vue-fragment": "^1.5.2",
+    "vue-fullscreen": "^2.5.2",
+    "vue-print-nb": "^1.7.5",
+    "vue-router": "3.2.0",
+    "vuex": "3.6.2",
+    "vuex-persistedstate": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "9.1.2",
+    "@commitlint/config-conventional": "9.1.2",
+    "@vue/cli-plugin-babel": "4.5.0",
+    "@vue/cli-plugin-eslint": "4.5.0",
+    "@vue/cli-plugin-router": "4.5.0",
+    "@vue/cli-plugin-vuex": "4.5.0",
+    "@vue/cli-service": "4.5.0",
+    "babel-eslint": "10.1.0",
+    "element-theme": "2.0.1",
+    "element-theme-chalk": "2.15.3",
+    "eslint": "6.7.2",
+    "eslint-plugin-vue": "6.2.2",
+    "husky": "4.2.5",
+    "lint-staged": "9.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "4.14.1",
+    "prettier": "2.3.2",
+    "stylelint": "13.13.1",
+    "stylelint-config-standard": "22.0.0",
+    "stylelint-order": "4.1.0",
+    "stylelint-scss": "3.20.1",
+    "stylelint-webpack-plugin": "3.0.1",
+    "svg-sprite-loader": "^6.0.9",
+    "vue-count-to": "^1.0.13",
+    "vue-template-compiler": "2.6.11",
+    "webpack-cli": "^4.10.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:es && npm run lint:css",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "## Project setup",
+  "main": "./lib/pgh-lib.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC"
+}

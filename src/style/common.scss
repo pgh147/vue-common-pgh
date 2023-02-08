@@ -1,0 +1,87 @@
+
+
+.el-button--mini {
+  padding: auto 16px;
+
+  span {
+    font-size: 16px;
+  }
+
+  .iconfont {
+    padding-right: 3px;
+  }
+}
+// .el-scrollbar__wrap {
+//   height: 500px !important;
+//    // height: 500px !important;
+//  }
+.el-cascader-menu {
+  height: 300px;
+  width: 100%;
+}
+
+.el-button--small {
+  padding: 7px 16px !important;
+
+  span {
+    font-size: 16px !important;
+  }
+
+  .iconfont {
+    padding-right: 3px;
+  }
+}
+
+.el-input__inner {
+  // height: 32px;
+  height: 36px !important;
+  line-height: 36px !important;
+}
+
+
+.iconl {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  margin-right: 5px;
+  width: 3px;
+  height: 16px;
+  background: #427cfe;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4d5d9 !important;
+  margin-right: 3px !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.el-tag {
+  border: none;
+}
+
+.el-form-item {
+  margin-bottom: 24px !important;
+}
+
+// .el-input__inner {
+
+// }
+
+.el-form-item__label {
+  line-height: 32px !important;
+}
+
+.el-form-item__content {
+  line-height: 32px !important;
+  font-size: 12px;
+  // .el-input-number,
+  // .el-select,
+  // .el-date-editor {
+  //   display: block;
+  // }
+}
+
